@@ -54,7 +54,7 @@ Automotive-F1-DCDC-Buck-Simulation/
         └── scope_output.png
 ├── 📁 Documentation/
 ├── 📁 Models/
-│   └── buck.slx
+│   └── buck_conv.slx
 ├── 📁 Results/
 ├── 📄 LICENSE
 └── 📄 README.md
