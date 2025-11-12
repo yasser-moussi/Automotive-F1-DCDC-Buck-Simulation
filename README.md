@@ -24,6 +24,20 @@ A professional MATLAB/Simulink implementation of a 400V-to-28V Buck Converter fo
 | Switching Frequency | 100 kHz | 50-200 kHz |
 | Efficiency | >95% | >90% |
 
+## 🔧 Model Overview
 
+![BMS Model](Assets/screenshots/full_model.png)
 
-MetricValueIndustry StandardOutput Voltage Accuracy±0.2V±1VVoltage Ripple<0.5V<1VSwitching Frequency100 kHz50-200 kHzEfficiency>95%>90%
+## 🛠️ Technical Implementation
+
+### Core Components
+- **PWM Switching** Pulse generator for duty cycle control (D=0.07 ideal)
+- **Passive Filtering** 10 mH inductor, 1 mF capacitor for stability
+- **Loss Modeling** Diode forward drop and switch resistance
+- **Solver Optimization** daessc for stiff high-voltage dynamics
+
+### Monitoring Capabilities
+- Real-time Vout and current tracking
+- Transient response visualization
+- Steady-state validation scopes
+- Parameter sensitivity analysis
