@@ -75,7 +75,7 @@ cd Automotive-F1-DCDC-Buck-Simulation
 ```
 **2. Open MATLAB and navigate to the project directory**
 
-**3. Load the main Simulink model**
+**3. Open the main Simulink model**
 ```bash
 open_system('Models/buck.slx')
 ```
