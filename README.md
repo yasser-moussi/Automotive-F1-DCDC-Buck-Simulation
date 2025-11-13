@@ -77,7 +77,7 @@ cd Automotive-F1-DCDC-Buck-Simulation
 
 **3. Open the main Simulink model**
 ```bash
-open_system('Models/buck.slx')
+open_system('Models/buck_conv.slx')
 ```
 
 **4. Run the Simulation**
@@ -86,7 +86,7 @@ Click the RUN button (play icon) in Simulink
 
 Or use the MATLAB command:
 ```bash
-sim('Models/buck.slx')
+sim('Models/buck_conv.slx')
 ```
 **5. View the results**
 
