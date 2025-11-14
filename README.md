@@ -48,7 +48,6 @@ A professional MATLAB/Simulink implementation of a 400V-to-28V buck converter fo
 Automotive-F1-DCDC-Buck-Simulation/
 ├── 📁 Assets/
     ├── 📁 data/
-        └── Load_Profile.mat
     └── 📁 screenshots/
         ├── full_model.png
         └── scope_output.png
